@@ -4,7 +4,7 @@ from app import add, subtract, multiply, divide
 import pytest
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add(4, 2) == 6
 
 def test_subtract():
     assert subtract(5, 3) == 2
